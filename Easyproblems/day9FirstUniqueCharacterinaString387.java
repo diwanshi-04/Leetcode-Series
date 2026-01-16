@@ -1,3 +1,5 @@
+/*JAVA*/
+
 class Solution {
     public int firstUniqChar(String s) {
         int[] count = new int[26];       
