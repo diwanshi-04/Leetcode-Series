@@ -4,7 +4,7 @@
 
 class Main {
     public static void main(String[] args) {
-        int n= 235632;
+        int n= 2332;
         int temp=n;
         int rev =0;
         while (n>0){
