@@ -1,2 +1,2 @@
 # Leetcode-Series
-let's solve leetcode with me buddy
+this is the repository of leetcode solution awa some more imp codes
