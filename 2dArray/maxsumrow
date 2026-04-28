@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int[][] arr = {{1,20},{2,3}};
+        int maxmax = 0;
+        int row = -1;
+        for(int i =0; i<arr.length; i++){
+            int sum = 0;
+            for(int j=0; j<arr.length; j++){
+                sum+=arr[i][j];
+            }
+                if (sum>maxmax){
+                    maxmax=sum;
+                    row=i;
+                }
+        }
+        System.out.println("ma sum row no: "+row+"  "+"max sum  "+maxmax);
+    }
+}
